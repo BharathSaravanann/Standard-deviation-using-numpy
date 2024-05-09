@@ -1,0 +1,12 @@
+import numpy as np
+x=np.array([1,2,3,4])
+y=np.array([6,7,8,9])
+standard_deviation=np.std(x)
+print(standard_deviation)
+print(y-x)
+print(x+y)
+print(x[0])
+print(x[3])
+print(x.shape)
+squareroot=np.sqrt(y)
+print(squareroot)
